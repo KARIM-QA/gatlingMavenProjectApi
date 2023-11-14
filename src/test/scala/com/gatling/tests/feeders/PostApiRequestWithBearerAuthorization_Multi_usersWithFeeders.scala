@@ -47,6 +47,6 @@ class PostApiRequestWithBearerAuthorization_Multi_usersWithFeeders extends Simul
 
 
   //setup
-  setUp(feederScenario.inject(atOnceUsers(4))).protocols(httpProtocol)
+  setUp(feederScenario.inject(atOnceUsers(5))).protocols(httpProtocol)
 
 }

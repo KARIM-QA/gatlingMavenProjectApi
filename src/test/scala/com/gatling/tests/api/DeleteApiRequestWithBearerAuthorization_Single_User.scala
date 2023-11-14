@@ -6,7 +6,7 @@ import io.gatling.http.Predef._
 class DeleteApiRequestWithBearerAuthorization_Single_User extends Simulation {
 
   private val token: String = "4a1bf4771cf69674c459eac33d3831575aa60a13eff438e007befcf3a489e721"
-  private val userId: Int = 5710076
+  private val userId: Int = 5711263
 
   //protocol
   val httpProtocol = http

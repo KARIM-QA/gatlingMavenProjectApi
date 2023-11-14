@@ -22,8 +22,8 @@ class PostApiRequestWithBearerAuthorization_Single_User_WithExternal_JsonFile ex
         .body(RawFileBody("data/user.json"))
         .check(
           //status.is(201),
-          jsonPath("$.name").is("kimmich"),
-          jsonPath("$.email").is("p1mkingOfAutomation211244441@gmail.com")
+          jsonPath("$.name").is("Karimou"),
+          jsonPath("$.email").is("karimoukingOfAutomation211244441@gmail.com")
         )
         .check(bodyString.saveAs("responseBody")) // Add this line to save the response body
     )
