@@ -57,7 +57,7 @@ val users = scenario("users")
 
   //generate 50 users in 30 seconds and generate 3 admins users in 15 seconds
 	setUp(
-		users.inject(rampUsers(50).during(30)),
+		users.inject(rampUsers(20).during(30)),
 		admins.inject(rampUsers(3).during(15))
 		).protocols(httpProtocol)
 /*********************************************************************************************************/

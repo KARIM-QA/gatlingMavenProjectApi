@@ -45,5 +45,5 @@ class RecordedSimulationSauceDemo extends Simulation {
 			.get("/v1/index.html")
 			)
 
-	setUp(sauceDemoScenario.inject(atOnceUsers(1))).protocols(httpProtocol)
+	setUp(sauceDemoScenario.inject(rampUsers(20).during(30))).protocols(httpProtocol)
 }

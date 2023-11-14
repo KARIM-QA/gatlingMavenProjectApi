@@ -43,16 +43,30 @@
 
     </dependencies>
 
-<build>
-    <testSourceDirectory>src/test/scala</testSourceDirectory>
-    <plugins>
-        <plugin>
-            <groupId>io.gatling</groupId>
-            <artifactId>gatling-maven-plugin</artifactId>
-            <version>${gatling-maven-plugin.version}</version>
-        </plugin>
-    </plugins>
-</build>
+    <build>
+        <testSourceDirectory>src/test/scala</testSourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>io.gatling</groupId>
+                <artifactId>gatling-maven-plugin</artifactId>
+                <version>${gatling-maven-plugin.version}</version>
+
+                <!-- to config running in multiple simulations  -->
+                <configuration>
+
+                    <runMultipleSimulations>true</runMultipleSimulations>
+                    <includes>
+                        <include>
+                            com.gatling.tests.sauceDemoWepApp.*
+                        </include>
+                    </includes>
+
+                </configuration>
+
+
+            </plugin>
+        </plugins>
+    </build>
 
 
 </project>

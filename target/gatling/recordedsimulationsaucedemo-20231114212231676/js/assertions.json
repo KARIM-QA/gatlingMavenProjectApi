@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.sauceDemoWepApp.RecordedSimulationSauceDemo",
+  "simulationId": "recordedsimulationsaucedemo",
+  "start": 1699996951676,
+  "description": "",
+  "scenarios": ["RecordedSimulationSauceDemo"],
+  "assertions": [
+
+  ]
+}
