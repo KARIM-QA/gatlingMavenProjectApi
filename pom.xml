@@ -40,8 +40,19 @@
             <version>${gatling-maven-plugin.version}</version>
         </dependency>
 
+
     </dependencies>
 
+<build>
+    <testSourceDirectory>src/test/scala</testSourceDirectory>
+    <plugins>
+        <plugin>
+            <groupId>io.gatling</groupId>
+            <artifactId>gatling-maven-plugin</artifactId>
+            <version>${gatling-maven-plugin.version}</version>
+        </plugin>
+    </plugins>
+</build>
 
 
 </project>

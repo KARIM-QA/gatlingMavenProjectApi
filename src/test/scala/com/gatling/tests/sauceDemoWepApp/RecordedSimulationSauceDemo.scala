@@ -1,10 +1,10 @@
 package com.gatling.tests.sauceDemoWepApp
 
-import io.gatling.core.Predef.*
-import io.gatling.http.Predef.*
-import io.gatling.jdbc.Predef.*
+import io.gatling.core.Predef._
+import io.gatling.http.Predef._
+import io.gatling.jdbc.Predef._
 
-import scala.concurrent.duration.*
+import scala.concurrent.duration._
 
 class RecordedSimulationSauceDemo extends Simulation {
 

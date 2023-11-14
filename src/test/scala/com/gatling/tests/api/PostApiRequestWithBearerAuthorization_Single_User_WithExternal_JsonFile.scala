@@ -1,7 +1,7 @@
 package com.gatling.tests.api
 
-import io.gatling.core.Predef.*
-import io.gatling.http.Predef.*
+import io.gatling.core.Predef._
+import io.gatling.http.Predef._
 import io.gatling.http.protocol.HttpProtocolBuilder
 
 class PostApiRequestWithBearerAuthorization_Single_User_WithExternal_JsonFile extends Simulation {

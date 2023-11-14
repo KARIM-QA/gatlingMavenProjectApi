@@ -1,7 +1,7 @@
 package com.gatling.tests.feeders
 
-import io.gatling.core.Predef.*
-import io.gatling.http.Predef.*
+import io.gatling.core.Predef._
+import io.gatling.http.Predef._
 
 import java.nio.file.{Files, Paths, StandardOpenOption}
 import java.util.Collections
